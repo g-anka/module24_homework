@@ -20,7 +20,7 @@ const argv = yargs
         const defaultPath = `./src/components/${argv.filename}.js`;
         const thePath = path.resolve((argv.filepath) ? argv.filepath : defaultPath);
         const defaultFuncComponent =
-            `import React from "react";
+`import React from "react";
             
 function ${argv.filename}() {
     return (
