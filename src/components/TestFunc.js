@@ -1,6 +1,6 @@
 import React from "react";
             
-function MyTest2() {
+function TestFunc() {
     return (
         <div>
             Some content
@@ -8,4 +8,4 @@ function MyTest2() {
     );
 }
             
-export default MyTest2;
+export default TestFunc;
